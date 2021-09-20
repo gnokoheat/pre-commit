@@ -1,0 +1,8 @@
+repos:
+  - repo: git://github.com/gnokoheat/pre-commit
+    rev: v1.0.0
+    hooks:
+      - id: flutter-format
+        args: ["lib", "test"]
+      - id: flutter-analyze
+      - id: flutter-test

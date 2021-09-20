@@ -1,0 +1,21 @@
+- id: flutter-format
+  name: Flutter format
+  description: Automatically formatting flutter code
+  entry: hooks/flutter/format.sh
+  language: script
+  args: []
+  pass_filenames: false
+
+- id: flutter-analyze
+  name: Flutter analyze
+  description: Automatically analyzing flutter code
+  entry: hooks/flutter/analyze.sh
+  language: script
+  pass_filenames: false
+
+- id: flutter-test
+  name: Flutter test
+  description: Automatically testing flutter code
+  entry: hooks/flutter/test.sh
+  language: script
+  pass_filenames: false
