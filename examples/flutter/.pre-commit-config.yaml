@@ -1,6 +1,6 @@
 repos:
-  - repo: git://github.com/gnokoheat/pre-commit
-    rev: v1.0.0
+  - repo: https://github.com/gnokoheat/pre-commit
+    rev: v1.0.1
     hooks:
       - id: flutter-format
         args: ["lib", "test"]
